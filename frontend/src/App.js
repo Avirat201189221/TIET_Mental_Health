@@ -11,18 +11,7 @@ function App() {
   return (
     <div className="App">
       <TopNav/>
-      <Landing></Landing>
-      {/* <Router>
-        <Routes>
-          <Route path="/login">
-            <Login />
-          </Route>
-
-          <Route path="/">
-            <Landing></Landing>
-          </Route>
-        </Routes>
-        </Router> */}
+      <Landing/>
       <GeneralChat/>
     </div>
   );
