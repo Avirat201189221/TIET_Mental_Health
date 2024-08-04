@@ -22,7 +22,7 @@ export default function TopNav() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-      <Button variant="primary" style={{textDecoration:"none",color:"white",marginRight:"1rem"}} ><a href="/login">Log In</a></Button>
+      <Button variant="primary" style={{marginRight:"1rem"}} ><a href="/login" style={{color:"white"}}>Log In</a></Button>
       <Translate/>
     </Navbar>
     </div>
