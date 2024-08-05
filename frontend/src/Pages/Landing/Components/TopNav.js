@@ -11,7 +11,7 @@ export default function TopNav() {
     <div>
     <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark" sticky="top" >
       <Container style={{ marginLeft:'1rem' }}>
-        <Navbar.Brand href="#home">Home</Navbar.Brand>
+        <Navbar.Brand href="/">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">

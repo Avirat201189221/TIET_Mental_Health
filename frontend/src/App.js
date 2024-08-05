@@ -17,7 +17,7 @@ function App() {
         <TopNav/>
         <Routes>
           <Route path="/" Component={Landing}/>
-          {/* <Route path="/login" component={Login} /> */}
+          <Route path="login" Component={Login} />
           {/* <Route path="/contact" component={Contact} /> */}
         </Routes>
         <GeneralChat/>
